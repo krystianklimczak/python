@@ -32,3 +32,9 @@ print(f"\t{glosariusz['tuple']}")
 
 print("\nDictionary:")
 print(f"\t{glosariusz['dictionary']}")
+
+#
+
+for key, value in glosariusz.items():
+    print(f"\n{key.title()}:")
+    print(f"\t{value}")
